@@ -1,0 +1,196 @@
+.fundo__principal{
+    background: url(img/fundo.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20% 0;
+    box-shadow: 1px 2px 20px #000, 2px 6px 50px #000;
+    padding: 50px 20px;
+}
+
+.container h2{
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    height: 46px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.input-field{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+label{
+    position: absolute;
+    top:0;
+    left: 0;
+    color: white;
+    transform: translateY(18px);
+    transition: .25s ease-in-out;
+}
+
+input:focus + label{
+    transform: translateY(-14px) scale(.8);
+    color:#26a96a
+}
+
+input:focus{
+    box-shadow: 0 1px 0 0 #26a96a;
+    border-bottom: #26a96a 1px solid;
+}
+
+.center{
+    text-align: center;
+}
+
+.center{
+    background: transparent;
+    padding: 5px 50px;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    border:2px solid white;
+    margin: 20px;
+    cursor: pointer;
+    transition: ease-in-out .25s;
+}
+
+.center:hover{
+    background: rgba(8, 146, 49, 0.459);
+}
+
+.cor{
+    text-decoration: none;
+    color: white;
+    transition: .25s ease-in-out;
+}
+.cor:hover{
+    color:#26a96a;
+}
+
+input:not(:placeholder-shown){
+    box-shadow: 0 1px 0 0 #26a96a;
+    border-bottom: #26a96a 1px solid;
+}
+
+input:not(:placeholder-shown) + label{
+    transform: translateY(-14px) scale(.8);
+}
+
+input::placeholder{
+    color:transparent;
+}
+
+/* loja html*/
+
+body{
+    background-image: url(img/fundoloja.jpg);
+    background-size: cover;
+    background-position: center;
+  
+    height: 100vh
+    
+}
+
+.titulo__loja{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 35px;
+    color: white;
+    
+    border-radius: 3px;
+    background-color: rgb(48, 47, 47);
+    margin: 0 auto;
+    padding: 1PX;
+    
+}
+.container-flex{
+    background-image: url(img/cinza.jpg);
+   
+    padding: 20px;    
+    display: flex;
+    justify-content:space-evenly
+    
+    
+    
+}
+.itens{
+   margin: 0 auto;
+    text-transform: uppercase;
+    color:rgb(252, 252, 252);
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    
+    
+
+ 
+}
+.container__centro{
+    flex-wrap: wrap;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding: 15px;
+    
+   
+}
+.imagem__meio{
+    height: 25vh;
+    width: 25vw;
+    
+}
+.div__centro{
+    width: 500px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+    box-shadow: 1px 2px 20px #000, 2px 6px 50px #000;
+    padding: 50px 20px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.container__centro-nav{
+    background: transparent;
+    padding: 5px 50px;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    border:2px solid white;
+    margin: 20px;
+    cursor: pointer;
+    transition: ease-in-out .25s;
+    border-bottom:none;
+    
+}
+.p__centro{
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+.container__centro-nav:hover{
+    color: rgb(236, 240, 3);
+
+}
+

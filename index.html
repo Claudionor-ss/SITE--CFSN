@@ -1,43 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="reset.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://kit.fontawesome.com/cf6fa412bd.js" crossorigin="anonymous"></script>
 </head>
-<body class="fundo__principal">
-    <div class="container">
-        <h2>Login</h2>
-        <form action="index.html" method="post">
-            <div class="input-field">
-                <input type="text" id="nome" placeholder="alguma coisa">
-                <label for="nome">Nome:</label>
-            </div>
-
-            <div class="input-field">
-                <input type="password" id="senha" placeholder="alguma coisa">
-                <label for="senha">Senha:</label>
-            </div>
-
-                <div>
-                    <nav>
-                        <ul>
-                            <li class="li_center"><a class="center"  href="Loja.html">Entrar</a></li>
-                            
-            
-                        </ul>
-                    </nav>
-            </div>
-            
-        </form>
-        <div class="links-uteis">
-            <a  class="cor" href=""><p>Esqueceu a sua senha ?</p></a>
-            <a class="cor" href=""><p>Ainda não sou cadastrado</p></a>
-        </div>
+<body>
+  <div class="container">
+    <div class="buttonsForm">
+      <div class="btnColor"></div>
+      <button id="btnSignin">Entrar</button>
+      <button id="btnSignup">Inscrever-se</button>
     </div>
+
+    <form id="signin">
+      <input type="text" placeholder="Email" required />
+      <i class="fas fa-envelope iEmail"></i>
+      <input type="password" placeholder="Senha" required />
+      <i class="fas fa-lock iPassword"></i>
+      <div class="divCheck">
+        <input type="checkbox" />
+        <span>Remember Password</span>
+      </div>
+      <button type="submit">Sign in</button>
+      
+    </form>
+
+    <form id="signup">
+      <input type="text" placeholder="Email" required />
+      <i class="fas fa-envelope iEmail"></i>
+      <input type="password" placeholder="senha" required />
+      <i class="fas fa-lock iPassword"></i>
+      <input type="password" placeholder="Digite a senha novamente" required />
+      <i class="fas fa-lock iPassword2"></i>
+      <div class="divCheck">
+        <input type="checkbox" required />
+        <span>Terms</span>
+      </div>
+      <button type="submit">Sign up</button>
+    </form>
+  </div>
+
+  <script src="index.js"></script>
 </body>
 </html>

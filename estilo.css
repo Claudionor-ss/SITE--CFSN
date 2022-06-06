@@ -1,28 +1,3 @@
-.fundo__principal{
-    background: url(img/fundo.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.container{
-    width: 350px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 20% 0;
-    box-shadow: 1px 2px 20px #000, 2px 6px 50px #000;
-    padding: 4em 2.5em;
-}
-
-.container h2{
-    text-align: center;
-    margin: 0.9em;
-    color: white;
-    font-size: 2em;
-    font-style: italic;
-    font-weight: bold;
-}
 
 input{
     width: 100%;
@@ -56,42 +31,6 @@ input:focus + label{
 input:focus{
     box-shadow: 0 1px 0 0 #26a96a;
     border-bottom: #26a96a 1px solid;
-}
-
-.center{
-    text-align: center;
-}
-
-.center{
-    background: transparent;
-    padding: 0.3em 3em;
-    border-radius: 2em;
-    color: white;
-    text-transform: uppercase;
-    border:0.1em solid white;
-   
-    cursor: pointer;
-    transition: ease-in-out .25s;
-    text-decoration: none;
-    
-    
-}
-.li_center{
-    text-align: center;
-    margin-bottom: 1em;
-}
-
-.center:hover{
-    background: rgba(8, 146, 49, 0.459);
-}
-
-.cor{
-
-    color: white;
-    transition: .25s ease-in-out;
-}
-.cor:hover{
-    color:#26a96a;
 }
 
 input:not(:placeholder-shown){

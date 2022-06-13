@@ -270,26 +270,35 @@ input::placeholder{
 }
 .fundo-sobre-texto{
  
-    width: 900px;
+    width: 760px;
+    height: 150px;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 5%;
     box-shadow: 1px 2px 20px #000, 2px 6px 50px #000;
     padding: 4.5em 5em;
     color: white;
-    font-size: 1.8em;
+    font-size: 1.4rem;
+    text-align: center;
     
     
     
 }
 .fundo-divulgacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     padding: 0.9em;
 }
 .fundo-fundo{
-    background-size: cover;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh
+
+
+
 }
 @media (max-width: 768px)
 
@@ -364,7 +373,7 @@ input::placeholder{
                
                 margin-bottom: 1rem;
             }
-            @media (max-width:470px)
+            @media (max-width:470px) /*produtos fontos*/
             {
                 .div__centro{
                     
@@ -383,6 +392,25 @@ input::placeholder{
                 }
                
 
+            }
+            @media(max-width: 768px){ /*sobre*/
+                .fundo-sobre-texto{
+ 
+                    width: 500px;
+                    height: 150px;
+                    background: rgba(0, 0, 0, 0.5);
+                    border-radius: 5%;
+                    box-shadow: 1px 2px 20px #000, 2px 6px 50px #000;
+                    padding: 2.5rem 2rem;
+                    color: white;
+                    font-size: 0.9rem;
+                    text-align: center;
+                    
+                    
+                    
+                    
+                }
+                
             }
             
         }
